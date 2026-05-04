@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 const server = http.createServer(app);
 const io = new Server(server, {
     cors :{
-        origin: "https://chating-web-app-phi.vercel.app/",
+        origin: "https://chating-web-app-phi.vercel.app",
         methods : ["GET","POST"],
     },
 
