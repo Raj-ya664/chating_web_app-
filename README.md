@@ -21,3 +21,13 @@ Open your terminal and run:
 cd Server
 npm install
 npm start
+```
+
+### 2. Frontend
+
+open terminal
+```bash
+cd Clients
+npm install.
+npm start
+```
